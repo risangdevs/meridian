@@ -1,0 +1,237 @@
+{
+  "seed": 271828,
+  "records": 60725,
+  "weekdayTrips": 481162,
+  "weekendTrips": 233851,
+  "weekendChangePercent": -51.398697320237254,
+  "weekdayPeak": [
+    {
+      "hour": 8,
+      "trips": 43029
+    },
+    {
+      "hour": 17,
+      "trips": 42650
+    },
+    {
+      "hour": 16,
+      "trips": 41320
+    }
+  ],
+  "weekendPeak": [
+    {
+      "hour": 15,
+      "trips": 19588
+    },
+    {
+      "hour": 16,
+      "trips": 19352
+    },
+    {
+      "hour": 14,
+      "trips": 19327
+    }
+  ],
+  "morningTrips": 114984,
+  "eveningTrips": 119693,
+  "morningCentral": {
+    "id": "central",
+    "name": "Central",
+    "departures": 3825,
+    "arrivals": 14542,
+    "congestion": 0.5668175532204496,
+    "travelTime": 27.955077040344094,
+    "total": 18367
+  },
+  "eveningCentral": {
+    "id": "central",
+    "name": "Central",
+    "departures": 14072,
+    "arrivals": 4804,
+    "congestion": 0.507987868192413,
+    "travelTime": 26.928777283322724,
+    "total": 18876
+  },
+  "morningFinancial": {
+    "id": "financial",
+    "name": "Financial",
+    "departures": 2700,
+    "arrivals": 13821,
+    "congestion": 0.5575305368924396,
+    "travelTime": 27.629586586768358,
+    "total": 16521
+  },
+  "eveningFinancial": {
+    "id": "financial",
+    "name": "Financial",
+    "departures": 13469,
+    "arrivals": 3116,
+    "congestion": 0.49824359360868214,
+    "travelTime": 26.721290322580646,
+    "total": 16585
+  },
+  "weekdayModes": [
+    {
+      "mode": "Metro",
+      "trips": 227007,
+      "sharePercent": 47.178912715467966,
+      "averageMinutes": 20.87768306704196
+    },
+    {
+      "mode": "Bus",
+      "trips": 112299,
+      "sharePercent": 23.339124868547394,
+      "averageMinutes": 45.29707922599485
+    },
+    {
+      "mode": "Car",
+      "trips": 132684,
+      "sharePercent": 27.575743720410173,
+      "averageMinutes": 30.1507378432967
+    },
+    {
+      "mode": "Bike",
+      "trips": 9172,
+      "sharePercent": 1.9062186955744636,
+      "averageMinutes": 28.40097034452685
+    }
+  ],
+  "weekdayCongestion": [
+    {
+      "id": "central",
+      "name": "Central",
+      "departures": 34687,
+      "arrivals": 36364,
+      "congestion": 0.4466008219448005,
+      "travelTime": 25.750911317222883,
+      "total": 71051
+    },
+    {
+      "id": "tech",
+      "name": "Tech Quarter",
+      "departures": 25326,
+      "arrivals": 24912,
+      "congestion": 0.4417986185755808,
+      "travelTime": 29.77217245909465,
+      "total": 50238
+    },
+    {
+      "id": "financial",
+      "name": "Financial",
+      "departures": 31814,
+      "arrivals": 30647,
+      "congestion": 0.43829415155056756,
+      "travelTime": 25.50253438145404,
+      "total": 62461
+    },
+    {
+      "id": "industrial",
+      "name": "Industrial",
+      "departures": 21131,
+      "arrivals": 19926,
+      "congestion": 0.4344771658913215,
+      "travelTime": 31.317821565141088,
+      "total": 41057
+    },
+    {
+      "id": "university",
+      "name": "University",
+      "departures": 24682,
+      "arrivals": 24338,
+      "congestion": 0.4303609751121988,
+      "travelTime": 28.56608935128519,
+      "total": 49020
+    }
+  ],
+  "weekendArrivals": [
+    {
+      "id": "arts",
+      "name": "Arts District",
+      "departures": 13127,
+      "arrivals": 21253,
+      "congestion": 0.31312196044211693,
+      "travelTime": 25.45229493891796,
+      "total": 34380
+    },
+    {
+      "id": "oldtown",
+      "name": "Old Town",
+      "departures": 13680,
+      "arrivals": 19480,
+      "congestion": 0.3154709589867313,
+      "travelTime": 25.379056091676713,
+      "total": 33160
+    },
+    {
+      "id": "riverside",
+      "name": "Riverside",
+      "departures": 14535,
+      "arrivals": 18070,
+      "congestion": 0.3484641005980678,
+      "travelTime": 26.050565864131222,
+      "total": 32605
+    },
+    {
+      "id": "market",
+      "name": "Market District",
+      "departures": 13289,
+      "arrivals": 17408,
+      "congestion": 0.3236632569957969,
+      "travelTime": 27.363758673485933,
+      "total": 30697
+    },
+    {
+      "id": "central",
+      "name": "Central",
+      "departures": 10457,
+      "arrivals": 16216,
+      "congestion": 0.37052907434484184,
+      "travelTime": 24.63881828065839,
+      "total": 26673
+    }
+  ],
+  "morningRoutes": [
+    {
+      "id": "greenfield-financial",
+      "origin": "Greenfield",
+      "destination": "Financial",
+      "trips": 1386,
+      "congestion": 0.5361421356421356,
+      "travelTime": 22.86673881673882,
+      "mode": "Metro"
+    },
+    {
+      "id": "southbank-central",
+      "origin": "Southbank",
+      "destination": "Central",
+      "trips": 1333,
+      "congestion": 0.537808702175544,
+      "travelTime": 21.194523630907728,
+      "mode": "Metro"
+    },
+    {
+      "id": "southbank-financial",
+      "origin": "Southbank",
+      "destination": "Financial",
+      "trips": 1320,
+      "congestion": 0.5273492424242425,
+      "travelTime": 18.198181818181816,
+      "mode": "Metro"
+    }
+  ],
+  "crossRiverCars": {
+    "crossingTrips": 13564,
+    "nonCrossingTrips": 18007,
+    "crossingCongestion": 0.7801338100855197,
+    "nonCrossingCongestion": 0.6646816238129615
+  },
+  "nightShare": 3.6603056766743842,
+  "performance": {
+    "runtime": "v22.22.3",
+    "records": 60725,
+    "runs": 30,
+    "medianMs": 2.8848749999999654,
+    "p95Ms": 5.574916999999971,
+    "description": "Node: filter full dataset + routes, districts, hours, heatmap. Excludes browser rendering."
+  }
+}
